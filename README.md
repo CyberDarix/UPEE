@@ -9,3 +9,8 @@ Liability: The author (CyberDarix) cannot be held liable for any malicious or un
 Security Commitment: The engine is currently being developed to incorporate robust security layers (digital signatures, integrity validation via SHA-256, and an isolated/sandbox environment). Any attempt to misuse the engine for malicious purposes runs counter to the project's vision.
 
 Contributions: Contributions are welcome but will undergo rigorous review to ensure the integrity and security of the overall infrastructure.
+
+---
+### 👤 About the author
+Developer and founder of UPEE.
+Follow my professional journey on [LinkedIn](https://www.linkedin.com/in/cyberdarix-cyberdarix-082986402/)

@@ -1,0 +1,56 @@
+{
+  "upee_config": {
+    "version": "1.0.0",
+    "service": {
+      "name": "UPEE_Engine",
+      "display_name": "UPEE - Universal Polyglot Execution Engine",
+      "description": "Moteur d'exécution universel et décentralisé pour l'automatisation système",
+      "enabled": true,
+      "auto_start": true
+    },
+    "scheduler": {
+      "max_concurrent_tasks": 4,
+      "default_priority": "Medium",
+      "task_timeout_seconds": 30
+    },
+    "logging": {
+      "enabled": true,
+      "level": "Info",
+      "rotation_days": 7,
+      "max_file_size_mb": 50
+    },
+    "sandbox": {
+      "memory_limit_mb": 512,
+      "timeout_seconds": 30,
+      "isolation_level": "Process"
+    },
+    "directives": {
+      "supported_modules": [
+        "CPP",
+        "RUST",
+        "PYTHON",
+        "GO",
+        "JS",
+        "LUA",
+        "SHELL",
+        "DEFAULT"
+      ],
+      "supported_commands": [
+        "RUN",
+        "COMPILE",
+        "EXEC"
+      ],
+      "priority_levels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "environment": {
+      "UPEE_MODE": "Production",
+      "UPEE_LOG_LEVEL": "Info",
+      "UPEE_MAX_RETRIES": 3
+    }
+  }
+}

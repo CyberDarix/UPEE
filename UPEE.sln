@@ -1,0 +1,43 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 10.0.46.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7B56}") = "UPEE.Core", "UPEE.Core\UPEE.Core.csproj", "{A1E0C8F5-2B4D-4A8E-9F2C-1E8B3D7F4C9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7B56}") = "UPEE.CLI", "UPEE.CLI\UPEE.CLI.csproj", "{B2F1D9G6-3C5E-5B9F-0G3D-2F9C4E8G5D0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7B56}") = "UPEE.Service", "UPEE.Service\UPEE.Service.csproj", "{C3G2E0H7-4D6F-6C0G-1H4E-3G0D5F9H6E1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7B56}") = "UPEE.Runtime", "UPEE.Runtime\UPEE.Runtime.csproj", "{D4H3F1I8-5E7G-7D1H-2I5F-4H1E6G0I7F2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7B56}") = "UPEE.Tests", "UPEE.Tests\UPEE.Tests.csproj", "{E5I4G2J9-6F8H-8E2I-3J6G-5I2F7H1J8G3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E0C8F5-2B4D-4A8E-9F2C-1E8B3D7F4C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E0C8F5-2B4D-4A8E-9F2C-1E8B3D7F4C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E0C8F5-2B4D-4A8E-9F2C-1E8B3D7F4C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E0C8F5-2B4D-4A8E-9F2C-1E8B3D7F4C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F1D9G6-3C5E-5B9F-0G3D-2F9C4E8G5D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F1D9G6-3C5E-5B9F-0G3D-2F9C4E8G5D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F1D9G6-3C5E-5B9F-0G3D-2F9C4E8G5D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F1D9G6-3C5E-5B9F-0G3D-2F9C4E8G5D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3G2E0H7-4D6F-6C0G-1H4E-3G0D5F9H6E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3G2E0H7-4D6F-6C0G-1H4E-3G0D5F9H6E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3G2E0H7-4D6F-6C0G-1H4E-3G0D5F9H6E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3G2E0H7-4D6F-6C0G-1H4E-3G0D5F9H6E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4H3F1I8-5E7G-7D1H-2I5F-4H1E6G0I7F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4H3F1I8-5E7G-7D1H-2I5F-4H1E6G0I7F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4H3F1I8-5E7G-7D1H-2I5F-4H1E6G0I7F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4H3F1I8-5E7G-7D1H-2I5F-4H1E6G0I7F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5I4G2J9-6F8H-8E2I-3J6G-5I2F7H1J8G3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5I4G2J9-6F8H-8E2I-3J6G-5I2F7H1J8G3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5I4G2J9-6F8H-8E2I-3J6G-5I2F7H1J8G3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5I4G2J9-6F8H-8E2I-3J6G-5I2F7H1J8G3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
